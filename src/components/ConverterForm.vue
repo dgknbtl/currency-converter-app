@@ -1,5 +1,5 @@
 <template>
-  <!-- app form --->
+  <!-- app form -->
   <div class="app-form">
     <!-- amount -->
     <div class="amount">
