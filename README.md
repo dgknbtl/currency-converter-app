@@ -1,4 +1,4 @@
-![currency-converter](https://user-images.githubusercontent.com/10329339/82932717-834a9980-9f91-11ea-92a8-6b1cdceaff0b.gif)
+
 
 # currency-converter-app
 Currency converter application using Vue.js 2, Exchange Rates API. [Demo](https://dogukanbatal.github.io/currency-converter-app)
