@@ -1,7 +1,6 @@
 
 
 # currency-converter-app
-Currency converter application using Vue.js 2, Exchange Rates API. [Demo](https://dogukanbatal.github.io/currency-converter-app)
 
 #### Project setup
 ```
@@ -39,6 +38,3 @@ All of the included images are Copyright (c) 2013 Go Squared Ltd. http://www.gos
 [axios](https://github.com/axios/axios)
 
 ___
-
-#### Author
-[Doğukan Batal](http://dogukanbatal.com) - Mail: [dogukanbatal@gmail.com](mailto:dogukanbatal@gmail.com)
