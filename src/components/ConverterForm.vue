@@ -132,7 +132,7 @@ export default {
   .v-select {
     width: 100% !important;
     height: 48px;
-    border: 2px solid #ccc;
+    border: 2px solid #e8e8e8;
     border-radius: 100px;
     padding-left: 15px;
     padding-right: 15px;

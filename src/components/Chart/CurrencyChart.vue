@@ -48,15 +48,15 @@ export default {
         datasets: [
           {
             label: "Value: ",
-            backgroundColor: "rgba(164, 5, 175, 0.4)",
-            borderColor: "#ce0864",
-            pointBackgroundColor: "#ce0864",
-            borderWidth: 3,
-            pointRadius: 5,
-            pointHoverRadius: 8,
+            backgroundColor: "#f8d6d7",
+            borderColor: "#f4484f",
+            pointBackgroundColor: "#f4484f",
+            borderWidth: 2,
+            pointRadius: 3,
+            pointHoverRadius: 4,
             lineTension: 0.4,
-            pointHoverBackgroundColor: "#a405af",
-            pointBorderColor: "#ce0864",
+            pointHoverBackgroundColor: "#f4484f",
+            pointBorderColor: "#f4484f",
             data: this.chartData.map(item => item.value)
           }
         ]

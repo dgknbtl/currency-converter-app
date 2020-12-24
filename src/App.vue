@@ -54,9 +54,9 @@ export default {
   box-sizing: border-box;
 }
 :root {
-  --color-primary: #a405af;
-  --color-secondary: #ce0864;
-  --color-gray: #999;
+  --color-primary:#4862D2;
+  --color-secondary: #4862D2;
+  --color-gray: black;
   --font-family: "Jost";
   --app-card-width: 370px;
 }

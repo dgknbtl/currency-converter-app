@@ -68,36 +68,9 @@ export default {
     font-size: 20px;
     font-weight: 400;
   }
-  .conversion {
-    &-from {
-      font-size: 28px;
-      color: var(--color-gray);
-    }
-    &-to {
-      font-size: 38px;
-      font-weight: 800;
-      color: var(--color-primary);
-      @supports ((background-clip: text) or (-webkit-background-clip: text)) and
-        (
-          (text-fill-color: transparent) or
-            (-webkit-text-fill-color: transparent)
-        ) {
-        & {
-          background-image: linear-gradient(
-            45deg,
-            var(--color-secondary),
-            var(--color-primary),
-            var(--color-secondary),
-            var(--color-primary)
-          );
-          background-size: cover;
-          -webkit-background-clip: text;
-          background-clip: text;
-          -webkit-text-fill-color: transparent;
-          // text-fill-color: transparent;
-        }
-      }
-    }
+  .conversion-from, .conversion-to {
+   font-size: 38px;
+    font-weight: 800;
   }
 }
 .update-date {
