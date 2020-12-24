@@ -29,11 +29,6 @@
           :searchable="false"
         >
           <template v-slot:option="val">
-            <img
-              class="countryFlag"
-              :src="`${publicPath}flags/${(val.label).substring(0,2)}.png`"
-              width="25"
-            />
             {{ val.label }}
           </template>
         </vSelect>
@@ -53,11 +48,7 @@
           :searchable="false"
         >
           <template v-slot:option="val">
-            <img
-              class="countryFlag"
-              :src="`${publicPath}flags/${(val.label).substring(0,2)}.png`"
-              width="25"
-            />
+
             {{ val.label }}
           </template>
         </vSelect>
@@ -102,13 +93,6 @@ export default {
       this.currencyTo = temp;
       this.convertCurrency();
     },
-    countryFlag() {
-      this.getCurrencyUnits.map(item => {
-        this.countryFlags.push(
-          `${this.publicPath}flags/${item.substring(0, 2)}.png`
-        );
-      });
-    }
   },
   watch: {
     getCurrencyUnits() {

@@ -27,7 +27,6 @@ const fiat = new Vuex.Store({
         convertValue,
         currencyFrom,
         currencyTo,
-        date,
       } = state;
 
       return {
@@ -36,7 +35,6 @@ const fiat = new Vuex.Store({
         convertValue,
         currencyFrom,
         currencyTo,
-        date,
       };
     },
     getCurrencyChartData(state) {
@@ -49,14 +47,13 @@ const fiat = new Vuex.Store({
     },
     ["SET_CONVERT_CURRENCY"](
       state,
-      { currencyFrom, currencyTo, amount, toAmount, convertValue, date }
+      { currencyFrom, currencyTo, amount, toAmount, convertValue }
     ) {
       state.currencyFrom = currencyFrom;
       state.currencyTo = currencyTo;
       state.amount = amount;
       state.toAmount = toAmount;
       state.convertValue = convertValue;
-      state.date = date;
     },
     ["SET_CURRENCY_CHART"](state, value) {
       state.currencyChartData = value;

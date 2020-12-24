@@ -10,7 +10,7 @@
 
     <!-- footer text -->
     <div class="footer-text">
-      <a href="https://github.com/dogukanbatal/currency-converter-app/" target="_blank" class="link">
+      <a href="https://github.com/Incognito95/currency-converter-app" target="_blank" class="link">
         <GithubIcon size="1x"></GithubIcon>
         <span>Github Repository</span>
       </a> 
