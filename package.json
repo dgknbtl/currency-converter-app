@@ -1,8 +1,8 @@
 {
   "name": "currency-converter-app",
   "version": "1.0.0",
-  "description": "Currency converter application using Vue.js 2, Exchange Rates API.",
-  "author": "Doğukan Batal <dogukanbatal@gmail.com>",
+  "description": "Currency converter application using Vue.js 2, Exchange Rates API & Crypto Currency API.",
+  "author": "Daniel Pedersen",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -16,6 +16,7 @@
     "core-js": "^3.6.4",
     "less-loader": "^6.1.0",
     "vue": "^2.6.11",
+    "vue-axios": "^3.2.0",
     "vue-chartjs": "^3.5.0",
     "vue-feather-icons": "^5.0.0",
     "vue-select": "^3.10.3",

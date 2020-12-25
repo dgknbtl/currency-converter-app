@@ -124,11 +124,7 @@ body {
     &:hover {
       cursor: pointer;
       background-image: none;
-      background-image: linear-gradient(
-        -45deg,
-        var(--color-primary),
-        var(--color-secondary)
-      );
+
       font-size: 22px;
     }
   }

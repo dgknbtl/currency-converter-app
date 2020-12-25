@@ -96,7 +96,6 @@ export default {
   },
   watch: {
     getCurrencyUnits() {
-      this.countryFlag();
     }
   },
   computed: {
@@ -104,7 +103,6 @@ export default {
   },
   mounted() {
     this.convertCurrency();
-    this.countryFlag();
   }
 };
 </script>

@@ -4,16 +4,15 @@ import axios from "axios";
 
 Vue.use(Vuex);
 
-const fiat = new Vuex.Store({
+const currencies = new Vuex.Store({
   state: {
-    apiBase: "https://api.binance.com/api/v3/ticker/price",
+    apiBase: "https://api.exchangeratesapi.io",
     currencyUnits: [],
     currencyFrom: null,
     currencyTo: null,
     amount: null,
     toAmount: null,
     convertValue: null,
-    date: "",
     currencyChartData: {},
   },
   getters: {
@@ -47,13 +46,14 @@ const fiat = new Vuex.Store({
     },
     ["SET_CONVERT_CURRENCY"](
       state,
-      { currencyFrom, currencyTo, amount, toAmount, convertValue }
+      { currencyFrom, currencyTo, amount, toAmount, convertValue, date }
     ) {
       state.currencyFrom = currencyFrom;
       state.currencyTo = currencyTo;
       state.amount = amount;
       state.toAmount = toAmount;
       state.convertValue = convertValue;
+      state.date = date;
     },
     ["SET_CURRENCY_CHART"](state, value) {
       state.currencyChartData = value;
@@ -124,7 +124,18 @@ const fiat = new Vuex.Store({
         let chartData = [];
 
         const monthNames = [
-          
+          "January",
+          "February",
+          "March",
+          "April",
+          "May",
+          "June",
+          "July",
+          "August",
+          "September",
+          "October",
+          "November",
+          "December",
         ];
 
         for (let key in data) {
@@ -150,5 +161,4 @@ const fiat = new Vuex.Store({
   },
 });
 
-
-export default fiat;
+export default currencies;
