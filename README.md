@@ -12,7 +12,7 @@ npm install
 npm run serve
 ```
 
-### npm install
+### node_modules
 ```
 If theirs no node_modules folder just type "npm install" inside the terminal followed by "npm run serve" to run the application.
 ```
